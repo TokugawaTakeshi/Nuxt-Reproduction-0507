@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "lib": [
+      "ESNext",
+      "ESNext.AsyncIterable",
+      "DOM"
+    ],
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [ "./*" ],
+      "@/*": [ "./*" ],
+      "@Utils/*": [ "./Utils/*"],
+    },
+    "types": [
+      "@types/node",
+      "@nuxt/types",
+      "./project"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
