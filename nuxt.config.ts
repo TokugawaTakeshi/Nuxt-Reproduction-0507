@@ -5,8 +5,6 @@ import { NuxtBabelPresetEnv, NuxtWebpackEnv } from "@nuxt/types/config/build";
 
 const Config: NuxtConfig = {
 
-  buildDir: "Build/InteractiveImplementation",
-
   dir: {
     pages: "Pages",
     layouts: "Layouts",

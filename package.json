@@ -1,9 +1,9 @@
 {
   "private": "true",
   "scripts": {
-    "Incremental development building": "nuxt",
-    "Production build": "nuxt build",
-    "Start production server": "nuxt start"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
   },
   "devDependencies": {
     "@nuxt/postcss8": "1.1.3",
